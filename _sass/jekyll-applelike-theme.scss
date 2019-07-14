@@ -1,0 +1,28 @@
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins/breakpoints";
+
+.content {
+  max-width: 80rem;
+
+  @include media-breakpoint-only(xs) {
+    padding: 3rem 1rem;
+  }
+
+  @include media-breakpoint-only(sm) {
+    padding: 3rem 2rem;
+  }
+
+  @include media-breakpoint-only(md) {
+    padding: 3rem 4rem;
+  }
+
+  @include media-breakpoint-only(lg) {
+    padding: 3rem 6rem;
+  }
+
+  @include media-breakpoint-only(xl) {
+    padding: 3rem 12rem;
+  }
+
+}
